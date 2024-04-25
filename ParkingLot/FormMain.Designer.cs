@@ -63,12 +63,14 @@
             MnuFileLogoff.Name = "MnuFileLogoff";
             MnuFileLogoff.Size = new Size(180, 22);
             MnuFileLogoff.Text = "Logoff";
+            MnuFileLogoff.Click += MnuFileLogoff_Click;
             // 
             // MnuFileExit
             // 
             MnuFileExit.Name = "MnuFileExit";
             MnuFileExit.Size = new Size(180, 22);
             MnuFileExit.Text = "Exit";
+            MnuFileExit.Click += MnuFileExit_Click;
             // 
             // MnuRegister
             // 
@@ -80,7 +82,7 @@
             // MnuRegisterUser
             // 
             MnuRegisterUser.Name = "MnuRegisterUser";
-            MnuRegisterUser.Size = new Size(180, 22);
+            MnuRegisterUser.Size = new Size(97, 22);
             MnuRegisterUser.Text = "User";
             // 
             // MnuOperation
@@ -93,13 +95,13 @@
             // MnuOperationEntry
             // 
             MnuOperationEntry.Name = "MnuOperationEntry";
-            MnuOperationEntry.Size = new Size(180, 22);
+            MnuOperationEntry.Size = new Size(141, 22);
             MnuOperationEntry.Text = "Car entrance";
             // 
             // MnuOperationExit
             // 
             MnuOperationExit.Name = "MnuOperationExit";
-            MnuOperationExit.Size = new Size(180, 22);
+            MnuOperationExit.Size = new Size(141, 22);
             MnuOperationExit.Text = "Car exit";
             // 
             // MnuReport
@@ -112,7 +114,7 @@
             // MnuReportParking
             // 
             MnuReportParking.Name = "MnuReportParking";
-            MnuReportParking.Size = new Size(180, 22);
+            MnuReportParking.Size = new Size(114, 22);
             MnuReportParking.Text = "Parking";
             // 
             // FormMain
@@ -125,6 +127,7 @@
             MainMenuStrip = MnuMain;
             Name = "FormMain";
             Text = "Parking Lot";
+            FormClosed += FormMain_FormClosed;
             MnuMain.ResumeLayout(false);
             MnuMain.PerformLayout();
             ResumeLayout(false);

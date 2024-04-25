@@ -79,6 +79,7 @@
             // 
             TxtPassword.Font = new Font("Segoe UI", 10F);
             TxtPassword.Location = new Point(22, 147);
+            TxtPassword.MaxLength = 250;
             TxtPassword.Name = "TxtPassword";
             TxtPassword.PasswordChar = '*';
             TxtPassword.PlaceholderText = "******";
@@ -100,6 +101,7 @@
             TxtEmail.CharacterCasing = CharacterCasing.Lower;
             TxtEmail.Font = new Font("Segoe UI", 10F);
             TxtEmail.Location = new Point(22, 89);
+            TxtEmail.MaxLength = 250;
             TxtEmail.Name = "TxtEmail";
             TxtEmail.PlaceholderText = "Enter your Email";
             TxtEmail.Size = new Size(179, 25);
@@ -134,6 +136,7 @@
             MaximizeBox = false;
             Name = "FormLogin";
             Text = "Login";
+            FormClosed += FormLogin_FormClosed;
             PnlMain.ResumeLayout(false);
             PnlMain.PerformLayout();
             ResumeLayout(false);

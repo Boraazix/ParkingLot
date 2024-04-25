@@ -47,7 +47,7 @@ namespace ParkingLot
                 }
                 else
                 {
-                    throw new Exception("The password must be between 8 and 12 characters!");
+                    throw new ArgumentOutOfRangeException("The password must be between 8 and 12 characters!");
                 }
             } 
         }

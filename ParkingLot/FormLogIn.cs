@@ -12,9 +12,19 @@ namespace ParkingLot
 {
     public partial class FormLogin : Form
     {
+        private static FormLogin _instance;
         public FormLogin()
         {
             InitializeComponent();
+        }
+        public static FormLogin GetInstance()
+        {
+            if (_instance == null || _instance.IsDisposed)
+            {
+                _instance = new FormLogin();
+            }
+            _instance.WindowState = FormWindowState.Normal;
+            return _instance;
         }
 
         private void ChkShowPassword_CheckedChanged(object sender, EventArgs e)
@@ -46,16 +56,31 @@ namespace ParkingLot
                 }
                 else
                 {
-                    //
+                    if (UserRepository.ValidateUser(TxtEmail.Text, TxtPassword.Text))
+                    {
+                        TxtEmail.Focus();
+                        this.Hide();
+                        TxtEmail.SelectAll();
+                        TxtPassword.Text = "";
+                        FormMain.GetInstance().Show();
+                    }
 
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Something is wrong :/", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                TxtPassword.Text = string.Empty;
-                TxtEmail.Focus();
-                TxtEmail.SelectAll();
+                if (ex.GetType() == typeof(InvalidDataException))
+                {
+                    TxtPassword.Text = string.Empty;
+                    TxtEmail.Focus();
+                    TxtEmail.SelectAll();
+                }
+                else if (ex.GetType() == typeof(UnauthorizedAccessException))
+                {
+                    TxtPassword.Focus();
+                    TxtPassword.SelectAll();
+                }
             }
         }
 
@@ -65,6 +90,11 @@ namespace ParkingLot
             {
                 Authenticate();
             }
+        }
+
+        private void FormLogin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
