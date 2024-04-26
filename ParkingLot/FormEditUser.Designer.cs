@@ -1,6 +1,6 @@
 ﻿namespace ParkingLot
 {
-    partial class FormRegisterUser
+    partial class FormEditUser
     {
         /// <summary>
         /// Required designer variable.
@@ -29,17 +29,14 @@
         private void InitializeComponent()
         {
             PnlMain = new Panel();
-            BtnDeleteUser = new Button();
-            BtnEditUser = new Button();
-            BtnShowData = new Button();
-            LstUsers = new ListBox();
-            GrpNewUser = new GroupBox();
+            GrpEditUser = new GroupBox();
+            BtnCancel = new Button();
             ChkAdministrator = new CheckBox();
             TxtConfirmPassword = new TextBox();
             LblConfirmPassword = new Label();
             TxtLastName = new TextBox();
             LblLastName = new Label();
-            BtnRegister = new Button();
+            BtnSaveChanges = new Button();
             ChkActive = new CheckBox();
             LblBirth = new Label();
             DtpBirth = new DateTimePicker();
@@ -50,91 +47,59 @@
             TxtFirstName = new TextBox();
             LblFirstName = new Label();
             PnlMain.SuspendLayout();
-            GrpNewUser.SuspendLayout();
+            GrpEditUser.SuspendLayout();
             SuspendLayout();
             // 
             // PnlMain
             // 
-            PnlMain.Controls.Add(BtnDeleteUser);
-            PnlMain.Controls.Add(BtnEditUser);
-            PnlMain.Controls.Add(BtnShowData);
-            PnlMain.Controls.Add(LstUsers);
-            PnlMain.Controls.Add(GrpNewUser);
+            PnlMain.Controls.Add(GrpEditUser);
             PnlMain.Location = new Point(0, 0);
             PnlMain.Name = "PnlMain";
-            PnlMain.Size = new Size(410, 442);
-            PnlMain.TabIndex = 0;
+            PnlMain.Size = new Size(409, 239);
+            PnlMain.TabIndex = 2;
             // 
-            // BtnDeleteUser
+            // GrpEditUser
             // 
-            BtnDeleteUser.Location = new Point(271, 401);
-            BtnDeleteUser.Name = "BtnDeleteUser";
-            BtnDeleteUser.Size = new Size(125, 27);
-            BtnDeleteUser.TabIndex = 4;
-            BtnDeleteUser.Text = "Delete User";
-            BtnDeleteUser.UseVisualStyleBackColor = true;
-            BtnDeleteUser.Click += BtnDeleteUser_Click;
+            GrpEditUser.Controls.Add(BtnCancel);
+            GrpEditUser.Controls.Add(ChkAdministrator);
+            GrpEditUser.Controls.Add(TxtConfirmPassword);
+            GrpEditUser.Controls.Add(LblConfirmPassword);
+            GrpEditUser.Controls.Add(TxtLastName);
+            GrpEditUser.Controls.Add(LblLastName);
+            GrpEditUser.Controls.Add(BtnSaveChanges);
+            GrpEditUser.Controls.Add(ChkActive);
+            GrpEditUser.Controls.Add(LblBirth);
+            GrpEditUser.Controls.Add(DtpBirth);
+            GrpEditUser.Controls.Add(TxtPassword);
+            GrpEditUser.Controls.Add(LblPassword);
+            GrpEditUser.Controls.Add(TxtEmail);
+            GrpEditUser.Controls.Add(LblEmail);
+            GrpEditUser.Controls.Add(TxtFirstName);
+            GrpEditUser.Controls.Add(LblFirstName);
+            GrpEditUser.Location = new Point(12, 12);
+            GrpEditUser.Name = "GrpEditUser";
+            GrpEditUser.Size = new Size(384, 213);
+            GrpEditUser.TabIndex = 2;
+            GrpEditUser.TabStop = false;
+            GrpEditUser.Text = "Edit User";
             // 
-            // BtnEditUser
+            // BtnCancel
             // 
-            BtnEditUser.Location = new Point(142, 401);
-            BtnEditUser.Name = "BtnEditUser";
-            BtnEditUser.Size = new Size(125, 27);
-            BtnEditUser.TabIndex = 3;
-            BtnEditUser.Text = "Edit User";
-            BtnEditUser.UseVisualStyleBackColor = true;
-            BtnEditUser.Click += BtnEditUser_Click;
-            // 
-            // BtnShowData
-            // 
-            BtnShowData.Location = new Point(12, 401);
-            BtnShowData.Name = "BtnShowData";
-            BtnShowData.Size = new Size(125, 27);
-            BtnShowData.TabIndex = 2;
-            BtnShowData.Text = "Show data";
-            BtnShowData.UseVisualStyleBackColor = true;
-            BtnShowData.Click += BtnShowData_Click;
-            // 
-            // LstUsers
-            // 
-            LstUsers.FormattingEnabled = true;
-            LstUsers.ItemHeight = 15;
-            LstUsers.Location = new Point(12, 196);
-            LstUsers.Name = "LstUsers";
-            LstUsers.Size = new Size(384, 199);
-            LstUsers.TabIndex = 1;
-            // 
-            // GrpNewUser
-            // 
-            GrpNewUser.Controls.Add(ChkAdministrator);
-            GrpNewUser.Controls.Add(TxtConfirmPassword);
-            GrpNewUser.Controls.Add(LblConfirmPassword);
-            GrpNewUser.Controls.Add(TxtLastName);
-            GrpNewUser.Controls.Add(LblLastName);
-            GrpNewUser.Controls.Add(BtnRegister);
-            GrpNewUser.Controls.Add(ChkActive);
-            GrpNewUser.Controls.Add(LblBirth);
-            GrpNewUser.Controls.Add(DtpBirth);
-            GrpNewUser.Controls.Add(TxtPassword);
-            GrpNewUser.Controls.Add(LblPassword);
-            GrpNewUser.Controls.Add(TxtEmail);
-            GrpNewUser.Controls.Add(LblEmail);
-            GrpNewUser.Controls.Add(TxtFirstName);
-            GrpNewUser.Controls.Add(LblFirstName);
-            GrpNewUser.Location = new Point(12, 12);
-            GrpNewUser.Name = "GrpNewUser";
-            GrpNewUser.Size = new Size(384, 178);
-            GrpNewUser.TabIndex = 0;
-            GrpNewUser.TabStop = false;
-            GrpNewUser.Text = "New User";
+            BtnCancel.Location = new Point(198, 175);
+            BtnCancel.Name = "BtnCancel";
+            BtnCancel.Size = new Size(75, 24);
+            BtnCancel.TabIndex = 8;
+            BtnCancel.Text = "Cancel";
+            BtnCancel.UseVisualStyleBackColor = true;
+            BtnCancel.Click += BtnCancel_Click;
             // 
             // ChkAdministrator
             // 
             ChkAdministrator.AutoSize = true;
-            ChkAdministrator.Location = new Point(267, 92);
+            ChkAdministrator.Location = new Point(234, 92);
             ChkAdministrator.Name = "ChkAdministrator";
             ChkAdministrator.Size = new Size(99, 19);
-            ChkAdministrator.TabIndex = 5;
+            ChkAdministrator.TabIndex = 4;
             ChkAdministrator.Text = "Administrator";
             ChkAdministrator.UseVisualStyleBackColor = true;
             // 
@@ -146,7 +111,7 @@
             TxtConfirmPassword.PasswordChar = '*';
             TxtConfirmPassword.PlaceholderText = "Repeat the password";
             TxtConfirmPassword.Size = new Size(120, 23);
-            TxtConfirmPassword.TabIndex = 7;
+            TxtConfirmPassword.TabIndex = 6;
             // 
             // LblConfirmPassword
             // 
@@ -174,25 +139,25 @@
             LblLastName.TabIndex = 10;
             LblLastName.Text = "Last Name";
             // 
-            // BtnRegister
+            // BtnSaveChanges
             // 
-            BtnRegister.Location = new Point(277, 138);
-            BtnRegister.Name = "BtnRegister";
-            BtnRegister.Size = new Size(87, 24);
-            BtnRegister.TabIndex = 8;
-            BtnRegister.Text = "Register";
-            BtnRegister.UseVisualStyleBackColor = true;
-            BtnRegister.Click += BtnRegister_Click;
+            BtnSaveChanges.Location = new Point(279, 175);
+            BtnSaveChanges.Name = "BtnSaveChanges";
+            BtnSaveChanges.Size = new Size(87, 24);
+            BtnSaveChanges.TabIndex = 9;
+            BtnSaveChanges.Text = "Save changes";
+            BtnSaveChanges.UseVisualStyleBackColor = true;
+            BtnSaveChanges.Click += BtnSaveChanges_Click;
             // 
             // ChkActive
             // 
             ChkActive.AutoSize = true;
             ChkActive.Checked = true;
             ChkActive.CheckState = CheckState.Checked;
-            ChkActive.Location = new Point(206, 92);
+            ChkActive.Location = new Point(279, 140);
             ChkActive.Name = "ChkActive";
             ChkActive.Size = new Size(59, 19);
-            ChkActive.TabIndex = 4;
+            ChkActive.TabIndex = 7;
             ChkActive.Text = "Active";
             ChkActive.UseVisualStyleBackColor = true;
             // 
@@ -223,23 +188,23 @@
             TxtPassword.PasswordChar = '*';
             TxtPassword.PlaceholderText = "Between 8-12 chars";
             TxtPassword.Size = new Size(120, 23);
-            TxtPassword.TabIndex = 6;
+            TxtPassword.TabIndex = 5;
             // 
             // LblPassword
             // 
             LblPassword.AutoSize = true;
             LblPassword.Location = new Point(15, 120);
             LblPassword.Name = "LblPassword";
-            LblPassword.Size = new Size(57, 15);
+            LblPassword.Size = new Size(84, 15);
             LblPassword.TabIndex = 4;
-            LblPassword.Text = "Password";
+            LblPassword.Text = "New Password";
             // 
             // TxtEmail
             // 
             TxtEmail.Location = new Point(15, 90);
             TxtEmail.MaxLength = 250;
             TxtEmail.Name = "TxtEmail";
-            TxtEmail.Size = new Size(180, 23);
+            TxtEmail.Size = new Size(207, 23);
             TxtEmail.TabIndex = 3;
             // 
             // LblEmail
@@ -268,44 +233,40 @@
             LblFirstName.TabIndex = 0;
             LblFirstName.Text = "First Name";
             // 
-            // FormRegisterUser
+            // FormEditUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(410, 442);
+            ClientSize = new Size(409, 239);
             Controls.Add(PnlMain);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
-            Name = "FormRegisterUser";
-            Text = "User Registration";
+            Name = "FormEditUser";
+            Text = "Editing User";
             PnlMain.ResumeLayout(false);
-            GrpNewUser.ResumeLayout(false);
-            GrpNewUser.PerformLayout();
+            GrpEditUser.ResumeLayout(false);
+            GrpEditUser.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel PnlMain;
-        private GroupBox GrpNewUser;
-        private Label LblFirstName;
-        private TextBox TxtFirstName;
+        private GroupBox GrpEditUser;
+        private CheckBox ChkAdministrator;
+        private TextBox TxtConfirmPassword;
+        private Label LblConfirmPassword;
+        private TextBox TxtLastName;
+        private Label LblLastName;
+        private Button BtnSaveChanges;
+        private CheckBox ChkActive;
+        private Label LblBirth;
+        private DateTimePicker DtpBirth;
         private TextBox TxtPassword;
         private Label LblPassword;
         private TextBox TxtEmail;
         private Label LblEmail;
-        private CheckBox ChkActive;
-        private Label LblBirth;
-        private DateTimePicker DtpBirth;
-        private Button BtnRegister;
-        private ListBox LstUsers;
-        private TextBox TxtLastName;
-        private Label LblLastName;
-        private TextBox TxtConfirmPassword;
-        private Label LblConfirmPassword;
-        private Button BtnDeleteUser;
-        private Button BtnEditUser;
-        private Button BtnShowData;
-        private CheckBox ChkAdministrator;
+        private TextBox TxtFirstName;
+        private Label LblFirstName;
+        private Button BtnCancel;
     }
 }

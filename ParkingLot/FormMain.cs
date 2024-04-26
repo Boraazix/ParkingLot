@@ -7,6 +7,8 @@ namespace ParkingLot
         public FormMain()
         {
             InitializeComponent();
+
+            this.Text = $"Parking Lot ({UserLogged.FirstName})";
             if (!UserLogged.Administrator)
             {
                 MnuRegister.Visible = false; MnuFileFees.Visible = false;

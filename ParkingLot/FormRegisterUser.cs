@@ -28,7 +28,10 @@ namespace ParkingLot
             _instance.WindowState = FormWindowState.Normal;
             return _instance;
         }
-
+        public void RefreshList()
+        {
+            LstUsers.DataSource = UserRepository.FindAll();
+        }
         private void BtnRegister_Click(object sender, EventArgs e)
         {
             try
@@ -68,14 +71,19 @@ namespace ParkingLot
                 {
                     UserRepository.Save(new User(TxtFirstName.Text, TxtLastName.Text, TxtEmail.Text, DtpBirth.Value, TxtPassword.Text, ChkActive.Checked, ChkAdministrator.Checked));
                     LstUsers.DataSource = UserRepository.FindAll();
-                    MessageBox.Show($"User \"{TxtFirstName.Text}\" successfully registered.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    TxtFirstName.Text = ""; TxtLastName.Text = ""; TxtPassword.Text = ""; ChkActive.Checked = true;
+                    MessageBox.Show($"User \"{TxtFirstName.Text}\" registered successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    TxtFirstName.Text = ""; TxtLastName.Text = ""; TxtPassword.Text = ""; ChkActive.Checked = true; ChkAdministrator.Checked = false;
                     TxtEmail.Text = ""; DtpBirth.Value = DateTime.Now; TxtFirstName.Focus();
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Something is wrong :/", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                if (ex.GetType() == typeof(DuplicateNameException))
+                {
+                    TxtEmail.Focus();
+                    TxtEmail.SelectAll();
+                }
             }
         }
 
@@ -84,7 +92,7 @@ namespace ParkingLot
             if (LstUsers.SelectedIndex >= 0)
             {
                 User user = (User)LstUsers.SelectedItem;
-                MessageBox.Show($"First Name: {user.FirstName}\nLast Name: {user.LastName}\nBirth date: {user.Birth.ToString("yyyy/MM/dd")}\nEmail: {user.Email}\nActive: {(user.Active ? "Yes" : "No")}\nAdministrator: {(user.Administrator ? "Yes" : "No")}", $"{user.FirstName} data", MessageBoxButtons.OK);
+                MessageBox.Show($"First Name: {user.FirstName}\nLast Name: {user.LastName}\nBirth date: {user.Birth.ToString("MM/dd/yyyy")}\nEmail: {user.Email}\nActive: {(user.Active ? "Yes" : "No")}\nAdministrator: {(user.Administrator ? "Yes" : "No")}", $"{user.FirstName} data", MessageBoxButtons.OK);
             }
         }
 
@@ -106,6 +114,14 @@ namespace ParkingLot
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Something is wrong :/", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void BtnEditUser_Click(object sender, EventArgs e)
+        {
+            if (LstUsers.SelectedIndex >= 0)
+            {
+                FormEditUser.GetInstance((User)LstUsers.SelectedItem).Show();
             }
         }
     }
