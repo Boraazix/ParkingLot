@@ -7,6 +7,10 @@ namespace ParkingLot
         public FormMain()
         {
             InitializeComponent();
+            if (!UserLogged.Administrator)
+            {
+                MnuRegister.Visible = false; MnuFileFees.Visible = false;
+            }
         }
         public static FormMain GetInstance()
         {
@@ -34,6 +38,11 @@ namespace ParkingLot
             FormLogin.GetInstance().Show();
             this.Close();
             UserLogged = null;
+        }
+
+        private void MnuRegisterUser_Click(object sender, EventArgs e)
+        {
+            FormRegisterUser.GetInstance().Show();
         }
     }
 }

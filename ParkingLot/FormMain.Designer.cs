@@ -39,6 +39,7 @@
             MnuOperationExit = new ToolStripMenuItem();
             MnuReport = new ToolStripMenuItem();
             MnuReportParking = new ToolStripMenuItem();
+            MnuFileFees = new ToolStripMenuItem();
             MnuMain.SuspendLayout();
             SuspendLayout();
             // 
@@ -53,7 +54,7 @@
             // 
             // MnuFile
             // 
-            MnuFile.DropDownItems.AddRange(new ToolStripItem[] { MnuFileLogoff, MnuFileExit });
+            MnuFile.DropDownItems.AddRange(new ToolStripItem[] { MnuFileFees, MnuFileLogoff, MnuFileExit });
             MnuFile.Name = "MnuFile";
             MnuFile.Size = new Size(37, 20);
             MnuFile.Text = "File";
@@ -82,8 +83,9 @@
             // MnuRegisterUser
             // 
             MnuRegisterUser.Name = "MnuRegisterUser";
-            MnuRegisterUser.Size = new Size(97, 22);
+            MnuRegisterUser.Size = new Size(180, 22);
             MnuRegisterUser.Text = "User";
+            MnuRegisterUser.Click += MnuRegisterUser_Click;
             // 
             // MnuOperation
             // 
@@ -117,6 +119,12 @@
             MnuReportParking.Size = new Size(114, 22);
             MnuReportParking.Text = "Parking";
             // 
+            // MnuFileFees
+            // 
+            MnuFileFees.Name = "MnuFileFees";
+            MnuFileFees.Size = new Size(180, 22);
+            MnuFileFees.Text = "Fees";
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -147,5 +155,6 @@
         private ToolStripMenuItem MnuOperationExit;
         private ToolStripMenuItem MnuReport;
         private ToolStripMenuItem MnuReportParking;
+        private ToolStripMenuItem MnuFileFees;
     }
 }

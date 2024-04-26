@@ -21,8 +21,12 @@ namespace ParkingLot
         public String Email { get; set; }
 
         [Required]
-        [MaxLength(50)]
-        public string Name { get; set; }
+        [MaxLength(20)]
+        public string FirstName { get; set; }
+
+        [Required]
+        [MaxLength(20)]
+        public string LastName { get; set; }
 
         [Column(TypeName = "Date")]
         public DateTime Birth { get; set; }
@@ -47,11 +51,12 @@ namespace ParkingLot
                 }
                 else
                 {
-                    throw new ArgumentOutOfRangeException("The password must be between 8 and 12 characters!");
+                    throw new IndexOutOfRangeException("The password must be between 8 and 12 characters!");
                 }
             } 
         }
         public bool Active { get; set; }
+        public bool Administrator { get; set; }
 
         #region Hashing
         public static String ComputeSHA256(String input)
@@ -89,18 +94,20 @@ namespace ParkingLot
 
         public User() { }
 
-        public User(string name, string email, DateTime birth, string password, bool active)
+        public User(string firstName, string lastName, string email, DateTime birth, string password, bool active, bool administrator)
         {
-            Name = name;
+            FirstName = firstName;
+            LastName = lastName;
             Email = email;
             Birth = birth;
             Password = password;
             Active = active;
+            Administrator = administrator;
         }
 
         public override string ToString()
         {
-            return $"{UserId} : {Name}";
+            return $"{FirstName} {LastName}, Email: {Email}, {(Active?"Active":"Inactive")}";
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +18,15 @@ namespace ParkingLot
                 {
                     if (user.UserId == 0)
                     {
-                        dbContext.Users.Add(user);
+                        User someone = dbContext.Users.Where(u => u.Email == user.Email).FirstOrDefault<User>();
+                        if (someone == null)
+                        {
+                            dbContext.Users.Add(user);
+                        }
+                        else
+                        {
+                            throw new DuplicateNameException("This Email is already registered!");
+                        }
                     }
                     else
                     {
@@ -27,6 +36,23 @@ namespace ParkingLot
                 }
             }
             catch (Exception) 
+            {
+                throw;
+            }
+        }
+        public static void Remove(User user)
+        {
+            try
+            {
+                using (Repository dbContext = new Repository())
+                {
+                    dbContext.Users.Attach(user);
+                    dbContext.Users.Remove(user);
+
+                    dbContext.SaveChanges();
+                }
+            }
+            catch (Exception)
             {
                 throw;
             }
@@ -42,6 +68,11 @@ namespace ParkingLot
                 }
                 if (user != null)
                 {
+                    if (!user.Active)
+                    {
+                        throw new AccessViolationException("This User is inactive!");
+                    }
+
                     password = User.ComputeSHA256(password, User.SALT);
 
                     if (password == user.Password)
@@ -57,6 +88,20 @@ namespace ParkingLot
                 else
                 {
                     throw new InvalidDataException("This email is incorrect, please try again");
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        public static List<User> FindAll()
+        {
+            try
+            {
+                using (Repository dbContext = new Repository())
+                {
+                    return dbContext.Users.OrderBy(u => u.FirstName).ThenBy(u => u.LastName).ToList();
                 }
             }
             catch (Exception)

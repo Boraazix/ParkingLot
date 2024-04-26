@@ -17,7 +17,7 @@ namespace ParkingLot
         {
             if(Database.EnsureCreated())
             {
-                User u = new User("Administrator", "adm@mail.com", Convert.ToDateTime("2000/01/01"), "adm12345", true);
+                User u = new User("Administrator", "Wang", "adm@mail.com", Convert.ToDateTime("2000/01/01"), "adm12345", true, true);
                 UserRepository.Save(u);
             }
         }
