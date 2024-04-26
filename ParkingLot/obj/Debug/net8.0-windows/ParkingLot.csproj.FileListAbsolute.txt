@@ -66,3 +66,4 @@ C:\Users\russe\source\repos\ParkingLot\ParkingLot\obj\Debug\net8.0-windows\Parki
 C:\Users\russe\source\repos\ParkingLot\ParkingLot\obj\Debug\net8.0-windows\ParkingLot.genruntimeconfig.cache
 C:\Users\russe\source\repos\ParkingLot\ParkingLot\obj\Debug\net8.0-windows\ref\ParkingLot.dll
 C:\Users\russe\source\repos\ParkingLot\ParkingLot\obj\Debug\net8.0-windows\ParkingLot.FormRegisterUser.resources
+C:\Users\russe\source\repos\ParkingLot\ParkingLot\obj\Debug\net8.0-windows\ParkingLot.FormFileFees.resources

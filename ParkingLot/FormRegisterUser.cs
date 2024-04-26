@@ -95,7 +95,7 @@ namespace ParkingLot
                 if (LstUsers.SelectedIndex >= 0)
                 {
                     User user = (User)LstUsers.SelectedItem;
-                    if (MessageBox.Show($"Do you want to delete the user\"{user.FirstName} {user.LastName}\"?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    if (MessageBox.Show($"Do you want to delete the user \"{user.FirstName} {user.LastName}\"?", "Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
                     {
                         UserRepository.Remove(user);
                         LstUsers.DataSource = UserRepository.FindAll();

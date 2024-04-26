@@ -44,5 +44,10 @@ namespace ParkingLot
         {
             FormRegisterUser.GetInstance().Show();
         }
+
+        private void MnuFileFees_Click(object sender, EventArgs e)
+        {
+            FormFileFees.GetInstance().Show();
+        }
     }
 }
