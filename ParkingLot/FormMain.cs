@@ -51,5 +51,10 @@ namespace ParkingLot
         {
             FormFileFees.GetInstance().Show();
         }
+
+        private void MnuOperationEntry_Click(object sender, EventArgs e)
+        {
+            FormOperationEntry.GetInstance().Show();
+        }
     }
 }

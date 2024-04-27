@@ -104,13 +104,14 @@
             // MnuOperationEntry
             // 
             MnuOperationEntry.Name = "MnuOperationEntry";
-            MnuOperationEntry.Size = new Size(141, 22);
+            MnuOperationEntry.Size = new Size(180, 22);
             MnuOperationEntry.Text = "Car entrance";
+            MnuOperationEntry.Click += MnuOperationEntry_Click;
             // 
             // MnuOperationExit
             // 
             MnuOperationExit.Name = "MnuOperationExit";
-            MnuOperationExit.Size = new Size(141, 22);
+            MnuOperationExit.Size = new Size(180, 22);
             MnuOperationExit.Text = "Car exit";
             // 
             // MnuReport

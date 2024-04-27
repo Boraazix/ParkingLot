@@ -71,7 +71,7 @@ namespace ParkingLot
                 {
                     UserRepository.Save(new User(TxtFirstName.Text, TxtLastName.Text, TxtEmail.Text, DtpBirth.Value, TxtPassword.Text, ChkActive.Checked, ChkAdministrator.Checked));
                     LstUsers.DataSource = UserRepository.FindAll();
-                    MessageBox.Show($"User \"{TxtFirstName.Text}\" registered successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show($"User \"{TxtFirstName.Text}\" successfully registered.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     TxtFirstName.Text = ""; TxtLastName.Text = ""; TxtPassword.Text = ""; ChkActive.Checked = true; ChkAdministrator.Checked = false;
                     TxtEmail.Text = ""; DtpBirth.Value = DateTime.Now; TxtFirstName.Focus();
                 }
@@ -92,7 +92,7 @@ namespace ParkingLot
             if (LstUsers.SelectedIndex >= 0)
             {
                 User user = (User)LstUsers.SelectedItem;
-                MessageBox.Show($"First Name: {user.FirstName}\nLast Name: {user.LastName}\nBirth date: {user.Birth.ToString("MM/dd/yyyy")}\nEmail: {user.Email}\nActive: {(user.Active ? "Yes" : "No")}\nAdministrator: {(user.Administrator ? "Yes" : "No")}", $"{user.FirstName} data", MessageBoxButtons.OK);
+                MessageBox.Show($"User ID: {user.UserId}\nFirst Name: {user.FirstName}\nLast Name: {user.LastName}\nBirth date: {user.Birth.ToString("MM/dd/yyyy")}\nEmail: {user.Email}\nActive: {(user.Active ? "Yes" : "No")}\nAdministrator: {(user.Administrator ? "Yes" : "No")}", $"{user.FirstName} data", MessageBoxButtons.OK);
             }
         }
 

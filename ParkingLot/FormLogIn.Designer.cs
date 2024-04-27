@@ -85,7 +85,6 @@
             TxtPassword.PlaceholderText = "******";
             TxtPassword.Size = new Size(179, 25);
             TxtPassword.TabIndex = 1;
-            TxtPassword.Text = "adm12345";
             TxtPassword.KeyUp += TxtPassword_KeyUp;
             // 
             // LblPassword
@@ -107,7 +106,6 @@
             TxtEmail.PlaceholderText = "Enter your Email";
             TxtEmail.Size = new Size(179, 25);
             TxtEmail.TabIndex = 0;
-            TxtEmail.Text = "adm@mail.com";
             // 
             // LblEmail
             // 
