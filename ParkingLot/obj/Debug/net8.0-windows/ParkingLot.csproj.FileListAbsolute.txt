@@ -69,3 +69,4 @@ C:\Users\russe\source\repos\ParkingLot\ParkingLot\obj\Debug\net8.0-windows\Parki
 C:\Users\russe\source\repos\ParkingLot\ParkingLot\obj\Debug\net8.0-windows\ParkingLot.FormFileFees.resources
 C:\Users\russe\source\repos\ParkingLot\ParkingLot\obj\Debug\net8.0-windows\ParkingLot.FormEditUser.resources
 C:\Users\russe\source\repos\ParkingLot\ParkingLot\obj\Debug\net8.0-windows\ParkingLot.FormOperationEntry.resources
+C:\Users\russe\source\repos\ParkingLot\ParkingLot\obj\Debug\net8.0-windows\ParkingLot.FormOperationExit.resources

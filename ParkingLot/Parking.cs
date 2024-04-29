@@ -38,6 +38,11 @@ namespace ParkingLot
             Exit = Convert.ToDateTime("1753-01-01");
             Responsible = responsible;
         }
+        
+        public TimeSpan CalculatePastTime(DateTime possibleExit)
+        {
+            return possibleExit - Entry;
+        }
         public override string ToString()
         {
             return $"{LicensePlate} | {Entry}. Responsible: {Responsible.FirstName} {Responsible.LastName}";

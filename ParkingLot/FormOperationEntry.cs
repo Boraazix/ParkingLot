@@ -84,5 +84,18 @@ namespace ParkingLot
                 MessageBox.Show(ex.Message, "Something is wrong :/", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
+
+        private void BtnReleaseCar_Click(object sender, EventArgs e)
+        {
+            if (LstParking.SelectedIndex >= 0)
+            {
+                FormOperationExit.GetInstance(LstParking.SelectedIndex).Show();
+            }
+        }
+
+        private void BtnUpdateTime_Click(object sender, EventArgs e)
+        {
+            DtpEntry.Value = DateTime.Now;
+        }
     }
 }

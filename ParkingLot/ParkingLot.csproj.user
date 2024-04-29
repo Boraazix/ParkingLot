@@ -16,6 +16,9 @@
     <Compile Update="FormOperationEntry.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormOperationExit.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormRegisterUser.cs">
       <SubType>Form</SubType>
     </Compile>

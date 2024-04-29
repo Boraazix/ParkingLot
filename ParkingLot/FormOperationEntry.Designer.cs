@@ -40,12 +40,14 @@
             LblEntryTime = new Label();
             TxtLicensePlate = new TextBox();
             LblLicensePlate = new Label();
+            BtnUpdateTime = new Button();
             PnlMain.SuspendLayout();
             GrpNewParking.SuspendLayout();
             SuspendLayout();
             // 
             // PnlMain
             // 
+            PnlMain.Controls.Add(BtnUpdateTime);
             PnlMain.Controls.Add(BtnDeleteParking);
             PnlMain.Controls.Add(BtnReleaseCar);
             PnlMain.Controls.Add(BtnShowData);
@@ -58,29 +60,30 @@
             // 
             // BtnDeleteParking
             // 
-            BtnDeleteParking.Location = new Point(290, 308);
+            BtnDeleteParking.Location = new Point(325, 308);
             BtnDeleteParking.Name = "BtnDeleteParking";
-            BtnDeleteParking.Size = new Size(135, 28);
-            BtnDeleteParking.TabIndex = 4;
+            BtnDeleteParking.Size = new Size(98, 28);
+            BtnDeleteParking.TabIndex = 5;
             BtnDeleteParking.Text = "Delete Parking";
             BtnDeleteParking.UseVisualStyleBackColor = true;
             BtnDeleteParking.Click += BtnDeleteParking_Click;
             // 
             // BtnReleaseCar
             // 
-            BtnReleaseCar.Location = new Point(151, 308);
+            BtnReleaseCar.Location = new Point(221, 308);
             BtnReleaseCar.Name = "BtnReleaseCar";
-            BtnReleaseCar.Size = new Size(135, 28);
-            BtnReleaseCar.TabIndex = 3;
+            BtnReleaseCar.Size = new Size(98, 28);
+            BtnReleaseCar.TabIndex = 4;
             BtnReleaseCar.Text = "Release car";
             BtnReleaseCar.UseVisualStyleBackColor = true;
+            BtnReleaseCar.Click += BtnReleaseCar_Click;
             // 
             // BtnShowData
             // 
-            BtnShowData.Location = new Point(12, 308);
+            BtnShowData.Location = new Point(117, 308);
             BtnShowData.Name = "BtnShowData";
-            BtnShowData.Size = new Size(135, 28);
-            BtnShowData.TabIndex = 2;
+            BtnShowData.Size = new Size(98, 28);
+            BtnShowData.TabIndex = 3;
             BtnShowData.Text = "Show data";
             BtnShowData.UseVisualStyleBackColor = true;
             BtnShowData.Click += BtnShowData_Click;
@@ -167,6 +170,16 @@
             LblLicensePlate.TabIndex = 0;
             LblLicensePlate.Text = "License plate";
             // 
+            // BtnUpdateTime
+            // 
+            BtnUpdateTime.Location = new Point(13, 308);
+            BtnUpdateTime.Name = "BtnUpdateTime";
+            BtnUpdateTime.Size = new Size(98, 28);
+            BtnUpdateTime.TabIndex = 2;
+            BtnUpdateTime.Text = "Update Time";
+            BtnUpdateTime.UseVisualStyleBackColor = true;
+            BtnUpdateTime.Click += BtnUpdateTime_Click;
+            // 
             // FormOperationEntry
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -197,5 +210,6 @@
         private Button BtnShowData;
         private Button BtnReleaseCar;
         private Button BtnDeleteParking;
+        private Button BtnUpdateTime;
     }
 }

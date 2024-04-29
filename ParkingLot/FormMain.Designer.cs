@@ -62,21 +62,21 @@
             // MnuFileFees
             // 
             MnuFileFees.Name = "MnuFileFees";
-            MnuFileFees.Size = new Size(180, 22);
+            MnuFileFees.Size = new Size(109, 22);
             MnuFileFees.Text = "Fees";
             MnuFileFees.Click += MnuFileFees_Click;
             // 
             // MnuFileLogoff
             // 
             MnuFileLogoff.Name = "MnuFileLogoff";
-            MnuFileLogoff.Size = new Size(180, 22);
+            MnuFileLogoff.Size = new Size(109, 22);
             MnuFileLogoff.Text = "Logoff";
             MnuFileLogoff.Click += MnuFileLogoff_Click;
             // 
             // MnuFileExit
             // 
             MnuFileExit.Name = "MnuFileExit";
-            MnuFileExit.Size = new Size(180, 22);
+            MnuFileExit.Size = new Size(109, 22);
             MnuFileExit.Text = "Exit";
             MnuFileExit.Click += MnuFileExit_Click;
             // 
@@ -90,7 +90,7 @@
             // MnuRegisterUser
             // 
             MnuRegisterUser.Name = "MnuRegisterUser";
-            MnuRegisterUser.Size = new Size(180, 22);
+            MnuRegisterUser.Size = new Size(97, 22);
             MnuRegisterUser.Text = "User";
             MnuRegisterUser.Click += MnuRegisterUser_Click;
             // 
@@ -113,6 +113,7 @@
             MnuOperationExit.Name = "MnuOperationExit";
             MnuOperationExit.Size = new Size(180, 22);
             MnuOperationExit.Text = "Car exit";
+            MnuOperationExit.Click += MnuOperationExit_Click;
             // 
             // MnuReport
             // 

@@ -56,5 +56,10 @@ namespace ParkingLot
         {
             FormOperationEntry.GetInstance().Show();
         }
+
+        private void MnuOperationExit_Click(object sender, EventArgs e)
+        {
+            FormOperationExit.GetInstance(-1).Show();
+        }
     }
 }
