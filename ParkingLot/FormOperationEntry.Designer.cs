@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormOperationEntry));
             PnlMain = new Panel();
+            BtnUpdateTime = new Button();
             BtnDeleteParking = new Button();
             BtnReleaseCar = new Button();
             BtnShowData = new Button();
@@ -40,7 +42,6 @@
             LblEntryTime = new Label();
             TxtLicensePlate = new TextBox();
             LblLicensePlate = new Label();
-            BtnUpdateTime = new Button();
             PnlMain.SuspendLayout();
             GrpNewParking.SuspendLayout();
             SuspendLayout();
@@ -57,6 +58,16 @@
             PnlMain.Name = "PnlMain";
             PnlMain.Size = new Size(440, 351);
             PnlMain.TabIndex = 0;
+            // 
+            // BtnUpdateTime
+            // 
+            BtnUpdateTime.Location = new Point(13, 308);
+            BtnUpdateTime.Name = "BtnUpdateTime";
+            BtnUpdateTime.Size = new Size(98, 28);
+            BtnUpdateTime.TabIndex = 2;
+            BtnUpdateTime.Text = "Update Time";
+            BtnUpdateTime.UseVisualStyleBackColor = true;
+            BtnUpdateTime.Click += BtnUpdateTime_Click;
             // 
             // BtnDeleteParking
             // 
@@ -170,16 +181,6 @@
             LblLicensePlate.TabIndex = 0;
             LblLicensePlate.Text = "License plate";
             // 
-            // BtnUpdateTime
-            // 
-            BtnUpdateTime.Location = new Point(13, 308);
-            BtnUpdateTime.Name = "BtnUpdateTime";
-            BtnUpdateTime.Size = new Size(98, 28);
-            BtnUpdateTime.TabIndex = 2;
-            BtnUpdateTime.Text = "Update Time";
-            BtnUpdateTime.UseVisualStyleBackColor = true;
-            BtnUpdateTime.Click += BtnUpdateTime_Click;
-            // 
             // FormOperationEntry
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -187,6 +188,7 @@
             ClientSize = new Size(440, 351);
             Controls.Add(PnlMain);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "FormOperationEntry";
             Text = "Car entrance";

@@ -19,6 +19,8 @@ namespace ParkingLot
 
         public bool Large { get; set; }
 
+        public string Size { get { return Large ? "Large" : "Small"; } }
+
         [Required]
         [Column(TypeName = "DateTime")]
         public DateTime Entry { get; set; }
@@ -45,7 +47,7 @@ namespace ParkingLot
         }
         public override string ToString()
         {
-            return $"{LicensePlate} | {Entry}. Responsible: {Responsible.FirstName} {Responsible.LastName}";
+            return $"{LicensePlate} | {Entry}. Responsible: {Responsible.FirstName} {Responsible.LastName[0]}.";
         }
     }
 }

@@ -28,6 +28,12 @@ namespace ParkingLot
         [MaxLength(20)]
         public string LastName { get; set; }
 
+        [NotMapped]
+        public string FullName
+        {
+            get { return $"{FirstName} {LastName}"; }
+        }
+
         [Column(TypeName = "Date")]
         public DateTime Birth { get; set; }
 

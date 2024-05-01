@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegisterUser));
             PnlMain = new Panel();
             BtnDeleteUser = new Button();
             BtnEditUser = new Button();
@@ -275,6 +276,7 @@
             ClientSize = new Size(410, 442);
             Controls.Add(PnlMain);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "FormRegisterUser";
             Text = "User Registration";

@@ -73,7 +73,7 @@ namespace ParkingLot
                     LstUsers.DataSource = UserRepository.FindAll();
                     MessageBox.Show($"User \"{TxtFirstName.Text}\" successfully registered.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     TxtFirstName.Text = ""; TxtLastName.Text = ""; TxtPassword.Text = ""; ChkActive.Checked = true; ChkAdministrator.Checked = false;
-                    TxtEmail.Text = ""; DtpBirth.Value = DateTime.Now; TxtFirstName.Focus();
+                    TxtEmail.Text = ""; DtpBirth.Value = DateTime.Now; TxtConfirmPassword.Text = ""; TxtFirstName.Focus();
                 }
             }
             catch (Exception ex)

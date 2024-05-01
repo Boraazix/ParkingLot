@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEditUser));
             PnlMain = new Panel();
             GrpEditUser = new GroupBox();
             BtnCancel = new Button();
@@ -239,6 +240,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(409, 239);
             Controls.Add(PnlMain);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "FormEditUser";
             Text = "Editing User";

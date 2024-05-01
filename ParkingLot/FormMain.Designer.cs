@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             MnuMain = new MenuStrip();
             MnuFile = new ToolStripMenuItem();
             MnuFileFees = new ToolStripMenuItem();
@@ -104,14 +105,14 @@
             // MnuOperationEntry
             // 
             MnuOperationEntry.Name = "MnuOperationEntry";
-            MnuOperationEntry.Size = new Size(180, 22);
+            MnuOperationEntry.Size = new Size(141, 22);
             MnuOperationEntry.Text = "Car entrance";
             MnuOperationEntry.Click += MnuOperationEntry_Click;
             // 
             // MnuOperationExit
             // 
             MnuOperationExit.Name = "MnuOperationExit";
-            MnuOperationExit.Size = new Size(180, 22);
+            MnuOperationExit.Size = new Size(141, 22);
             MnuOperationExit.Text = "Car exit";
             MnuOperationExit.Click += MnuOperationExit_Click;
             // 
@@ -127,6 +128,7 @@
             MnuReportParking.Name = "MnuReportParking";
             MnuReportParking.Size = new Size(114, 22);
             MnuReportParking.Text = "Parking";
+            MnuReportParking.Click += MnuReportParking_Click;
             // 
             // FormMain
             // 
@@ -134,6 +136,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(MnuMain);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             IsMdiContainer = true;
             MainMenuStrip = MnuMain;
             Name = "FormMain";

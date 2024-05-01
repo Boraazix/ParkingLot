@@ -87,5 +87,25 @@ namespace ParkingLot
                 throw;
             }
         }
+
+        public static List<Parking> FindWithFiltering(String licensePlate, int size, User responsible, bool allDates, DateTime start, DateTime finish)
+        {
+            try
+            {
+                using (Repository dbContext = new Repository())
+                {
+                    return dbContext.Parking.Include("Responsible")
+                        .Where(p => (licensePlate == "" ? true : p.LicensePlate == licensePlate) //if license plate isn't null, filter by it
+                        && (size == 0 ? p.Large == false : (size == 1 ? p.Large == true : true)) //size 0 = small, 1 = large, 2 = both
+                        && (responsible.UserId == 0 ? true : p.Responsible == responsible) //if "any user" isn't selected, filter by user responsible
+                        && (allDates ? true : p.Entry >= start && p.Entry <= finish) //if "all dates" isn't checked, filter by entry date
+                        ).OrderByDescending(p => p.Entry).ToList();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

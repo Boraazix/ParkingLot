@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
             PnlMain = new Panel();
             ChkShowPassword = new CheckBox();
             BtnLogin = new Button();
@@ -133,6 +134,7 @@
             ClientSize = new Size(227, 277);
             Controls.Add(PnlMain);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "FormLogin";
             Text = "Login";

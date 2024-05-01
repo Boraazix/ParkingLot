@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormOperationExit));
             PnlMain = new Panel();
             GrpFinish = new GroupBox();
             BtnExitCar = new Button();
@@ -238,6 +239,7 @@
             ClientSize = new Size(458, 450);
             Controls.Add(PnlMain);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "FormOperationExit";
             Text = "Car exit";

@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFileFees));
             PnlMain = new Panel();
+            LblDollar = new Label();
             BtnSaveFees = new Button();
             GrpLargeCars = new GroupBox();
             NudLAdditionalHour = new NumericUpDown();
@@ -48,7 +50,6 @@
             LblSThirtyOrLess = new Label();
             NudSFifteenOrLess = new NumericUpDown();
             LblSFifteenOrLess = new Label();
-            LblDollar = new Label();
             PnlMain.SuspendLayout();
             GrpLargeCars.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)NudLAdditionalHour).BeginInit();
@@ -72,6 +73,16 @@
             PnlMain.Name = "PnlMain";
             PnlMain.Size = new Size(444, 214);
             PnlMain.TabIndex = 0;
+            // 
+            // LblDollar
+            // 
+            LblDollar.AutoSize = true;
+            LblDollar.ForeColor = Color.DarkRed;
+            LblDollar.Location = new Point(12, 183);
+            LblDollar.Name = "LblDollar";
+            LblDollar.Size = new Size(91, 15);
+            LblDollar.TabIndex = 9;
+            LblDollar.Text = "Values ​​in dollars";
             // 
             // BtnSaveFees
             // 
@@ -269,16 +280,6 @@
             LblSFifteenOrLess.TabIndex = 0;
             LblSFifteenOrLess.Text = "Up to 15 minutes";
             // 
-            // LblDollar
-            // 
-            LblDollar.AutoSize = true;
-            LblDollar.ForeColor = Color.DarkRed;
-            LblDollar.Location = new Point(12, 183);
-            LblDollar.Name = "LblDollar";
-            LblDollar.Size = new Size(91, 15);
-            LblDollar.TabIndex = 9;
-            LblDollar.Text = "Values ​​in dollars";
-            // 
             // FormFileFees
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -286,6 +287,7 @@
             ClientSize = new Size(444, 214);
             Controls.Add(PnlMain);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "FormFileFees";
             Text = "Fees";

@@ -3,72 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\russe\\source\\repos\\ParkingLot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formfilefees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formfilefees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|c:\\users\\russe\\source\\repos\\parkinglot\\parkinglot\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|c:\\users\\russe\\source\\repos\\parkinglot\\parkinglot\\formreportparkingoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formreportparkingoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formregisteruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formregisteruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|c:\\users\\russe\\source\\repos\\parkinglot\\parkinglot\\formreportparking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formreportparking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formoperationexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formoperationexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formoperationentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formoperationentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formoperationentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formoperationentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formfilefees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formfilefees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|c:\\users\\russe\\source\\repos\\parkinglot\\parkinglot\\formoperationexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formoperationexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|c:\\users\\russe\\source\\repos\\parkinglot\\parkinglot\\formoperationexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formoperationexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|c:\\users\\russe\\source\\repos\\parkinglot\\parkinglot\\formreportparkingoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formreportparkingoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|c:\\users\\russe\\source\\repos\\parkinglot\\parkinglot\\parkinglot.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\parkinglot.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\parking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\parking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formregisteruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formregisteruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formfilefees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formfilefees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\repository\\parkingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\repository\\parkingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formreportparking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formreportparking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formreportparking.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formreportparking.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formregisteruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formregisteruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formoperationexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formoperationexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formoperationentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formoperationentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formfilefees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|solutionrelative:parkinglot\\formfilefees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{265D5DF3-4213-4E66-A047-F75ED7600C37}|ParkingLot\\ParkingLot.csproj|C:\\Users\\russe\\source\\repos\\ParkingLot\\parkinglot\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,35 +122,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormRegisterUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormRegisterUser.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\FormRegisterUser.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormRegisterUser.cs [Design]",
-              "RelativeToolTip": "ParkingLot\\FormRegisterUser.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T18:48:54.293Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FormOperationEntry.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationEntry.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\FormOperationEntry.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationEntry.cs [Design]",
-              "RelativeToolTip": "ParkingLot\\FormOperationEntry.cs [Design]",
+              "Title": "FormReportParking.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormReportParking.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormReportParking.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormReportParking.cs [Design]",
+              "RelativeToolTip": "ParkingLot\\FormReportParking.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T13:34:44.415Z",
+              "WhenOpened": "2024-04-30T17:28:14.176Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FormReportParkingOutput.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormReportParkingOutput.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormReportParkingOutput.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormReportParkingOutput.cs [Design]",
+              "RelativeToolTip": "ParkingLot\\FormReportParkingOutput.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T14:50:30.549Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FormLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormLogin.cs",
               "RelativeDocumentMoniker": "ParkingLot\\FormLogin.cs",
@@ -150,32 +174,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormFileFees.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormFileFees.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\FormFileFees.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormFileFees.cs [Design]",
-              "RelativeToolTip": "ParkingLot\\FormFileFees.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "FormRegisterUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormRegisterUser.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormRegisterUser.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormRegisterUser.cs [Design]",
+              "RelativeToolTip": "ParkingLot\\FormRegisterUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T17:05:37.205Z",
+              "WhenOpened": "2024-04-25T18:48:54.293Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FormOperationEntry.cs",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationEntry.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\FormOperationEntry.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationEntry.cs",
-              "RelativeToolTip": "ParkingLot\\FormOperationEntry.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAADwv2EAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T13:34:51.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "FormOperationExit.cs [Design]",
               "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationExit.cs",
               "RelativeDocumentMoniker": "ParkingLot\\FormOperationExit.cs",
@@ -187,67 +198,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormOperationExit.cs",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationExit.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\FormOperationExit.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationExit.cs",
-              "RelativeToolTip": "ParkingLot\\FormOperationExit.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAwwF4AAABUAAAA",
+              "DocumentIndex": 6,
+              "Title": "FormOperationEntry.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationEntry.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormOperationEntry.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationEntry.cs [Design]",
+              "RelativeToolTip": "ParkingLot\\FormOperationEntry.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T18:06:31.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T13:34:44.415Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormRegisterUser.cs",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormRegisterUser.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\FormRegisterUser.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormRegisterUser.cs",
-              "RelativeToolTip": "ParkingLot\\FormRegisterUser.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAiwGkAAAAUAAAA",
+              "DocumentIndex": 7,
+              "Title": "FormFileFees.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormFileFees.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormFileFees.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormFileFees.cs [Design]",
+              "RelativeToolTip": "ParkingLot\\FormFileFees.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T18:49:05.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T17:05:37.205Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Parking.cs",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Parking.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\Parking.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Parking.cs",
-              "RelativeToolTip": "ParkingLot\\Parking.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwCgAAAAIAAAA",
+              "Title": "FormEditUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormEditUser.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormEditUser.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormEditUser.cs [Design]",
+              "RelativeToolTip": "ParkingLot\\FormEditUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T17:11:41.44Z",
+              "WhenOpened": "2024-04-26T18:04:55.99Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormReportParkingOutput.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormReportParkingOutput.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormReportParkingOutput.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormReportParkingOutput.cs",
+              "RelativeToolTip": "ParkingLot\\FormReportParkingOutput.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T14:54:22.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "FormFileFees.cs",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormFileFees.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\FormFileFees.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormFileFees.cs",
-              "RelativeToolTip": "ParkingLot\\FormFileFees.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAUwC0AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T17:20:37.438Z",
+              "Title": "ParkingLot",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\ParkingLot.csproj",
+              "RelativeDocumentMoniker": "ParkingLot\\ParkingLot.csproj",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\ParkingLot.csproj",
+              "RelativeToolTip": "ParkingLot\\ParkingLot.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-01T16:34:17.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "FormMain.cs",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormMain.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\FormMain.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormMain.cs",
-              "RelativeToolTip": "ParkingLot\\FormMain.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAswEEAAAAAAAAA",
+              "Title": "Parking.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Parking.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Parking.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Parking.cs",
+              "RelativeToolTip": "ParkingLot\\Parking.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBUAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T17:36:51.853Z",
+              "WhenOpened": "2024-04-24T17:11:41.44Z",
               "EditorCaption": ""
             },
             {
@@ -258,7 +278,7 @@
               "RelativeDocumentMoniker": "ParkingLot\\Repository\\ParkingRepository.cs",
               "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Repository\\ParkingRepository.cs",
               "RelativeToolTip": "ParkingLot\\Repository\\ParkingRepository.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAowCQAAAAsAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAYwGUAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T17:22:13.66Z",
               "EditorCaption": ""
@@ -266,19 +286,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "ParkingLot\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAowBsAAABiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T17:13:29.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Program.cs",
               "RelativeDocumentMoniker": "ParkingLot\\Program.cs",
@@ -291,32 +298,124 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormReportParking.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormReportParking.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormReportParking.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormReportParking.cs",
+              "RelativeToolTip": "ParkingLot\\FormReportParking.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAywFQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:28:20.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "FormReportParking.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormReportParking.Designer.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormReportParking.Designer.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormReportParking.Designer.cs",
+              "RelativeToolTip": "ParkingLot\\FormReportParking.Designer.cs",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAiwNYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:49:43.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "ParkingLot\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowBsAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T17:13:29.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormRegisterUser.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormRegisterUser.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormRegisterUser.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormRegisterUser.cs",
+              "RelativeToolTip": "ParkingLot\\FormRegisterUser.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAUwEsAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T18:49:05.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\User.cs",
               "RelativeDocumentMoniker": "ParkingLot\\User.cs",
               "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\User.cs",
               "RelativeToolTip": "ParkingLot\\User.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAADwv2gAAAAqAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwCEAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T17:12:06.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FormEditUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormEditUser.cs",
-              "RelativeDocumentMoniker": "ParkingLot\\FormEditUser.cs",
-              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormEditUser.cs [Design]",
-              "RelativeToolTip": "ParkingLot\\FormEditUser.cs [Design]",
+              "DocumentIndex": 18,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormMain.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormMain.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormMain.cs",
+              "RelativeToolTip": "ParkingLot\\FormMain.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAiwEIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T18:04:55.99Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-25T17:36:51.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
+              "Title": "FormOperationExit.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationExit.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormOperationExit.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationExit.cs",
+              "RelativeToolTip": "ParkingLot\\FormOperationExit.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwEoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T18:06:31.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormOperationEntry.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationEntry.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormOperationEntry.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormOperationEntry.cs",
+              "RelativeToolTip": "ParkingLot\\FormOperationEntry.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAADwv2EAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:34:51.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FormFileFees.cs",
+              "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormFileFees.cs",
+              "RelativeDocumentMoniker": "ParkingLot\\FormFileFees.cs",
+              "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormFileFees.cs",
+              "RelativeToolTip": "ParkingLot\\FormFileFees.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAUwC0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T17:20:37.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "FormLogin.cs",
               "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormLogin.cs",
               "RelativeDocumentMoniker": "ParkingLot\\FormLogin.cs",
@@ -329,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "FormRegisterUser.Designer.cs",
               "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormRegisterUser.Designer.cs",
               "RelativeDocumentMoniker": "ParkingLot\\FormRegisterUser.Designer.cs",
@@ -342,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "FormEditUser.cs",
               "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\FormEditUser.cs",
               "RelativeDocumentMoniker": "ParkingLot\\FormEditUser.cs",
@@ -355,19 +454,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Settings.settings",
               "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Properties\\Settings.settings",
               "RelativeDocumentMoniker": "ParkingLot\\Properties\\Settings.settings",
               "ToolTip": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Properties\\Settings.settings",
               "RelativeToolTip": "ParkingLot\\Properties\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-04-24T19:41:00.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T19:41:00.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\russe\\source\\repos\\ParkingLot\\ParkingLot\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "ParkingLot\\Repository\\Repository.cs",
@@ -375,8 +473,7 @@
               "RelativeToolTip": "ParkingLot\\Repository\\Repository.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T17:13:15.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T17:13:15.235Z"
             }
           ]
         }
