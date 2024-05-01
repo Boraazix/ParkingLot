@@ -240,6 +240,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(409, 239);
             Controls.Add(PnlMain);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "FormEditUser";
